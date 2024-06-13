@@ -1,12 +1,3 @@
-# CF-Workers-docker.io：Docker仓库镜像代理工具
-
-这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。
-
-# 部署方式
-
-- **Workers** 部署：复制 [_worker.js](https://github.com/cmliu/CF-Workers-docker.io/blob/main/_worker.js) 代码，`保存并部署`即可
-- **Pages** 部署：`Fork` 后 `连接GitHub` 一键部署即可
-
 ## 如何使用？
 
 例如您的Workers项目域名为：`docker.fxxk.dedyn.io`；
