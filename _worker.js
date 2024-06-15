@@ -123,7 +123,7 @@ export default {
 				} else return fetch(new Request(env.URL, request));
 			}
 			
-			const newUrl = new URL("https://registry.hub.docker.com" + pathname + url.search);
+			const newUrl = new URL("https://uykb.eu.org" + pathname + url.search);
 
 			// 复制原始请求的标头
 			const headers = new Headers(request.headers);
