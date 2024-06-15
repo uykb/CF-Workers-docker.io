@@ -4,7 +4,7 @@
 sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
-  "registry-mirrors": ["https://docker.uykb.eu.org"]  # 请替换为您自己的Worker自定义域名
+  "registry-mirrors": ["https://docker.uykb.eu.org"] 
 }
 EOF
 sudo systemctl daemon-reload
